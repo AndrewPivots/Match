@@ -1,0 +1,13 @@
+/*
+  ##product
+- background is an indicator: ticker, etc
+- use as much of space as possible
+- add in destractors?
+
+*/
+body {font-size:55px;}
+.sun {background:#ffe673;}
+.moon {background:#c4c4ff;}
+.flower {background:#9dff9d;}
+.flake {background:#a0d1ff;}
+.cloud {background:#ffceff;}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link href="resources/styleFirst.css" rel="stylesheet"/>
+				<!-- other css file at the bottom -->
+				<script src='resources/script.js' defer></script>
+			</head>
+			<body>
+				<header class="header">
+					<div class="title">
+						<h1>Mem
+							<span style="    color: white;
+    text-outline: black solid 1px 1px;
+    text-shadow: 2px 2px black;">o</span>ry Game
+						</h1>
+						<button id="quest1" class="icons" onclick="alert('OBJECTIVE\:\nBeat the author of the game by finding all matches with less moves in less time.\n\n1. Clicking on 2 squares counts as a move\n2. If 2 symbols match, they remain visible.\n3. Keep clicking until you\'ve found all the matches.');">&#x2139;</button>
+					</div>
+					<ul id="sBoard" class="sBoard">
+						<li class="players">You
+							<span id="scoreU" class="scores">0</span>
+							<span id="timeU" class="times">:0</span>
+						</li>
+						<li class="players">Me
+							<span id="scoreI" class="scores">6</span>
+							<span id="timeI" class="times">:15</span>
+						</li>
+					</ul>
+					<button id="reload1" class="icons" onclick="location.reload();">&#8635;</button>
+				</header>
+				<main>
+					<ul class="board">
+						<li class="card back flower">&#x273F;</li>
+						<li class="card back moon">&#x263E;</li>
+						<li class="card back flower">&#x273F;</li>
+						<li class="card back sun">&#x2600;</li>
+						<li class="card back moon">&#x263E;</li>
+						<li class="card back sun">&#x2600;</li>
+						<li class="card back flake">&#x2744;</li>
+						<li class="card back cloud">&#x2601;</li>
+						<li class="card back flake">&#x2744;</li>
+						<li class="card back cloud">&#x2601;</li>
+					</ul>
+				</main>
+				<style>
+  @import "resources/styleLast.css";
+  </style>
+			</body>
+		</html>
